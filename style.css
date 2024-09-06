@@ -209,22 +209,8 @@ section {
 /* ICONS */
 
 .icon {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  object-fit: cover;
-}
-
-.socials {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  object-fit: cover;
-}
-
-.socials:hover {
-  transform: scale(1.2);
   cursor: pointer;
+  height: 2rem;
 }
 
 /* BUTTONS */
@@ -305,11 +291,6 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-}
-
-.arrow:hover {
-  transform: scale(1.1);
-  cursor: pointer;
 }
 
 .details-container {
